@@ -1,17 +1,19 @@
-# flutterapp
+# Phát triển ứng dụng di động - INT3120 40 2022-2023
 
-A new Flutter project.
+## Thành viên nhóm 5
 
-## Getting Started
+20021461 - Nguyễn Lưu Tú
 
-This project is a starting point for a Flutter application.
+20021318 - Lê Đức Duy
 
-A few resources to get you started if this is your first Flutter project:
+20021434 - Lê Huy Thái
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tiến trình học
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# MobileApp_Group5" 
+### Tuần 1 : Nghỉ lễ 2/9
+
+### Tuần 2 : Tạo một chương trình Hello World
+
+![image](https://user-images.githubusercontent.com/80797703/190573293-788bbbf1-a283-47fa-888b-97d9efc478fa.png)
+
+
