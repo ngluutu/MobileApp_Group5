@@ -16,4 +16,13 @@
 
 ![image](https://user-images.githubusercontent.com/80797703/190573293-788bbbf1-a283-47fa-888b-97d9efc478fa.png)
 
+### Tuần 3 : Tạo một ứng dụng đơn giản
+
+Ứng dụng bao gồm 5 loại điều khiển : TextField, DropDownButton, CheckBox, Button, ListView.
+
+![giphy](https://user-images.githubusercontent.com/80797703/191796206-f8a35a13-caa8-4fbc-bc93-19b6f21cf32e.gif)__________
+![giphy (1)](https://user-images.githubusercontent.com/80797703/191796240-f865aa0d-f4e9-488e-bf76-a959c3b3089c.gif)__________
+![giphy (2)](https://user-images.githubusercontent.com/80797703/191796251-a807f420-883c-4166-82ba-d6d6296dbe4e.gif)
+
+
 
