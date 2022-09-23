@@ -20,8 +20,8 @@
 
 Ứng dụng bao gồm 5 loại điều khiển : TextField, DropDownButton, CheckBox, Button, ListView.
 
-![giphy](https://user-images.githubusercontent.com/80797703/191796206-f8a35a13-caa8-4fbc-bc93-19b6f21cf32e.gif)_______________
-![giphy (1)](https://user-images.githubusercontent.com/80797703/191796240-f865aa0d-f4e9-488e-bf76-a959c3b3089c.gif)_______________
+![giphy](https://user-images.githubusercontent.com/80797703/191796206-f8a35a13-caa8-4fbc-bc93-19b6f21cf32e.gif)____________
+![giphy (1)](https://user-images.githubusercontent.com/80797703/191796240-f865aa0d-f4e9-488e-bf76-a959c3b3089c.gif)____________
 ![giphy (2)](https://user-images.githubusercontent.com/80797703/191796251-a807f420-883c-4166-82ba-d6d6296dbe4e.gif)
 
 
