@@ -32,7 +32,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         //key: _scaffoldKey,
         appBar: AppBar(
-          title: Text("Đăng kí tham dự giải chạy 2000m VNU."),
+          title: const Text("Đăng kí tham dự giải chạy 2000m VNU."),
         ),
         body: SafeArea(
           //minimum: const EdgeInsets.only(left: 20, right: 20),
