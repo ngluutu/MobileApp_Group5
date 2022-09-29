@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:resizable_widget/resizable_widget.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class MenuBar extends StatelessWidget {
@@ -12,8 +11,8 @@ class MenuBar extends StatelessWidget {
 
   Widget _menuBar() {
     return Container(
-      height: 46,
-      width: 327,
+      height: 55,
+      width: 360,
       //alignment: Alignment.bottomCenter,
       decoration: BoxDecoration(
         color: Colors.white,
@@ -28,6 +27,7 @@ class MenuBar extends StatelessWidget {
         ],
       ),
       child: Row(
+          crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
@@ -43,7 +43,7 @@ class MenuBar extends StatelessWidget {
   TextButton _homeButton() {
     return TextButton(
       style: ButtonStyle(
-          fixedSize: MaterialStatePropertyAll<Size>(Size.square(40))),
+          fixedSize: MaterialStatePropertyAll<Size>(Size.square(55))),
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
@@ -64,7 +64,7 @@ class MenuBar extends StatelessWidget {
   TextButton _searchButton() {
     return TextButton(
       style: ButtonStyle(
-          fixedSize: MaterialStatePropertyAll<Size>(Size.square(40))),
+          fixedSize: MaterialStatePropertyAll<Size>(Size.square(55))),
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
@@ -85,7 +85,7 @@ class MenuBar extends StatelessWidget {
   TextButton _activityButton() {
     return TextButton(
       style: ButtonStyle(
-          fixedSize: MaterialStatePropertyAll<Size>(Size.square(40))),
+          fixedSize: MaterialStatePropertyAll<Size>(Size.square(55))),
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
@@ -106,7 +106,7 @@ class MenuBar extends StatelessWidget {
   TextButton _classesButton() {
     return TextButton(
       style: ButtonStyle(
-          fixedSize: MaterialStatePropertyAll<Size>(Size.square(40))),
+          fixedSize: MaterialStatePropertyAll<Size>(Size.square(55))),
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
@@ -127,7 +127,7 @@ class MenuBar extends StatelessWidget {
   TextButton _settingButton() {
     return TextButton(
       style: ButtonStyle(
-          fixedSize: MaterialStatePropertyAll<Size>(Size.square(40))),
+          fixedSize: MaterialStatePropertyAll<Size>(Size.square(55))),
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
