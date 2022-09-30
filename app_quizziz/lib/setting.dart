@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_application_1/main.dart';
@@ -24,16 +22,17 @@ class _SettingState extends State<Setting> {
     return Container(
         color: Colors.white,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             top(),
             _appSettings(),
             _setting(),
             _information(),
             MenuBar(),
-            Padding(
-              padding: EdgeInsets.symmetric(vertical: 5),
-            )
+            //Padding(padding: EdgeInsets.symmetric(vertical: 10)),
+            // Padding(
+            //   padding: EdgeInsets.symmetric(vertical: 5),
+            // )
           ],
         ));
   }
@@ -156,7 +155,7 @@ class _SettingState extends State<Setting> {
 
   Widget _setting() {
     return Container(
-      height: 335,
+      height: 340,
       width: 370,
       decoration: BoxDecoration(
         color: Colors.white,
@@ -303,6 +302,130 @@ class _SettingState extends State<Setting> {
             ),
           ],
         ),
+        Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            TextButton(
+              style: ButtonStyle(
+                fixedSize: MaterialStatePropertyAll<Size>(Size.square(65)),
+                shape: MaterialStatePropertyAll<RoundedRectangleBorder>(
+                    RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10))),
+                backgroundColor: MaterialStatePropertyAll<Color>(
+                    Color.fromRGBO(217, 217, 217, 1)),
+              ),
+              child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      "assets/classic.png",
+                      height: 40,
+                      width: 40,
+                    ),
+                    Text('Classic',
+                        style: GoogleFonts.comfortaa(
+                            textStyle: TextStyle(
+                                color: Colors.black,
+                                fontSize: 8,
+                                fontWeight: FontWeight.bold)))
+                  ]),
+              onPressed: () {},
+            ),
+            TextButton(
+              style: ButtonStyle(
+                  fixedSize: MaterialStatePropertyAll<Size>(Size.square(65)),
+                  shape: MaterialStatePropertyAll<RoundedRectangleBorder>(
+                      RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10))),
+                  backgroundColor: MaterialStatePropertyAll<Color>(
+                      Color.fromRGBO(217, 217, 217, 1))),
+              child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      "assets/frameim.jpg",
+                      height: 40,
+                      width: 40,
+                    ),
+                    Text('Frame Im...',
+                        style: GoogleFonts.comfortaa(
+                            textStyle: TextStyle(
+                                color: Colors.black,
+                                fontSize: 8,
+                                fontWeight: FontWeight.bold)))
+                  ]),
+              onPressed: () {},
+            ),
+            TextButton(
+              style: ButtonStyle(
+                  fixedSize: MaterialStatePropertyAll<Size>(Size.square(65)),
+                  shape: MaterialStatePropertyAll<RoundedRectangleBorder>(
+                      RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10))),
+                  backgroundColor: MaterialStatePropertyAll<Color>(
+                      Color.fromRGBO(217, 217, 217, 1))),
+              child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset("assets/touchdown.png", width: 40, height: 40),
+                    Text('Touchdo...',
+                        style: GoogleFonts.comfortaa(
+                            textStyle: TextStyle(
+                                color: Colors.black,
+                                fontSize: 8,
+                                fontWeight: FontWeight.bold)))
+                  ]),
+              onPressed: () {},
+            ),
+            TextButton(
+              style: ButtonStyle(
+                  fixedSize: MaterialStatePropertyAll<Size>(Size.square(65)),
+                  shape: MaterialStatePropertyAll<RoundedRectangleBorder>(
+                      RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10))),
+                  backgroundColor: MaterialStatePropertyAll<Color>(
+                      Color.fromRGBO(217, 217, 217, 1))),
+              child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      "assets/dogsville.jpg",
+                      width: 40,
+                      height: 40,
+                    ),
+                    Text('Dogsville',
+                        style: GoogleFonts.comfortaa(
+                            textStyle: TextStyle(
+                                color: Colors.black,
+                                fontSize: 8,
+                                fontWeight: FontWeight.bold)))
+                  ]),
+              onPressed: () {},
+            ),
+            TextButton(
+              style: ButtonStyle(
+                  fixedSize: MaterialStatePropertyAll<Size>(Size.square(65)),
+                  shape: MaterialStatePropertyAll<RoundedRectangleBorder>(
+                      RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10))),
+                  backgroundColor: MaterialStatePropertyAll<Color>(
+                      Color.fromRGBO(217, 217, 217, 1))),
+              child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset("assets/darknight.jpg", width: 40, height: 40),
+                    Text('Dark Nig...',
+                        style: GoogleFonts.comfortaa(
+                            textStyle: TextStyle(
+                                color: Colors.black,
+                                fontSize: 8,
+                                fontWeight: FontWeight.bold)))
+                  ]),
+              onPressed: () {},
+            )
+          ],
+        )
       ]),
     );
   }
