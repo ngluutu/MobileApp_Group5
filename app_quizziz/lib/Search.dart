@@ -42,11 +42,12 @@ class _SearchPageState extends State<SearchPage> {
             decoration: InputDecoration(
                 border: InputBorder.none,
                 hintText: 'Search for quizzes',
+                contentPadding: EdgeInsets.fromLTRB(15, 20, 90, 10),
                 labelStyle: GoogleFonts.comfortaa(
                   textStyle: TextStyle(
+                    fontSize: 14,
                     color: Color.fromARGB(255, 120, 120, 120),
                     fontFamily: "Comfortaa",
-                    fontSize: 30,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -99,11 +100,12 @@ class _SearchPageState extends State<SearchPage> {
   }
 
   Widget options() {
-    return Container(
+    return FittedBox(
+      //margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
-        mainAxisSize: MainAxisSize.min,
-        //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        //mainAxisSize: MainAxisSize.min,
+        //mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           grade_button(),
           subjects_button(),
@@ -111,7 +113,7 @@ class _SearchPageState extends State<SearchPage> {
           languages_button(),
         ],
       ),
-      padding: EdgeInsets.all(0.0),
+      //padding: EdgeInsets.all(0.0),
     );
   }
 
@@ -120,7 +122,7 @@ class _SearchPageState extends State<SearchPage> {
         child: Container(
           alignment: Alignment.center,
           height: 22,
-          width: 46,
+          width: 52,
           decoration: BoxDecoration(
             color: Color.fromARGB(255, 230, 230, 230),
             borderRadius: BorderRadius.circular(20),
@@ -138,7 +140,7 @@ class _SearchPageState extends State<SearchPage> {
         child: Container(
           alignment: Alignment.center,
           height: 22,
-          width: 60,
+          width: 69,
           decoration: BoxDecoration(
             color: Color.fromARGB(255, 230, 230, 230),
             borderRadius: BorderRadius.circular(20),
@@ -156,7 +158,7 @@ class _SearchPageState extends State<SearchPage> {
         child: Container(
           alignment: Alignment.center,
           height: 22,
-          width: 138,
+          width: 147,
           decoration: BoxDecoration(
             color: Color.fromARGB(255, 230, 230, 230),
             borderRadius: BorderRadius.circular(20),
@@ -174,7 +176,7 @@ class _SearchPageState extends State<SearchPage> {
         child: Container(
           alignment: Alignment.center,
           height: 22,
-          width: 74,
+          width: 86,
           decoration: BoxDecoration(
             color: Color.fromARGB(255, 230, 230, 230),
             borderRadius: BorderRadius.circular(20),
