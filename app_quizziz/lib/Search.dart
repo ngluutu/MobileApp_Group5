@@ -17,61 +17,62 @@ class _SearchPageState extends State<SearchPage> {
     String id = '';
     return MaterialApp(
         home: Scaffold(
+            resizeToAvoidBottomInset: false,
             body: SafeArea(
                 child: Column(
-      mainAxisAlignment: MainAxisAlignment.start,
-      children: [
-        top(),
-        Container(
-          height: 60,
-          margin: EdgeInsets.fromLTRB(10, 20, 10, 0),
-          decoration: BoxDecoration(
-            color: Colors.white,
-            shape: BoxShape.rectangle,
-            borderRadius: BorderRadius.circular(7),
-            border: Border.all(
-              color: Color.fromARGB(255, 221, 220, 220),
-              width: 1.0,
-            ),
-          ),
-          child: TextFormField(
-            controller: _controller,
-            onChanged: (text) {
-              setState(() {});
-            },
-            decoration: InputDecoration(
-                border: InputBorder.none,
-                hintText: 'Search for quizzes',
-                contentPadding: EdgeInsets.fromLTRB(15, 20, 90, 10),
-                labelStyle: GoogleFonts.comfortaa(
-                  textStyle: TextStyle(
-                    fontSize: 14,
-                    color: Color.fromARGB(255, 120, 120, 120),
-                    fontFamily: "Comfortaa",
-                    fontWeight: FontWeight.bold,
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                top(),
+                Container(
+                  height: 60,
+                  margin: EdgeInsets.only(top: 20, left: 10, right: 10),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    shape: BoxShape.rectangle,
+                    borderRadius: BorderRadius.circular(7),
+                    border: Border.all(
+                      color: Color.fromARGB(255, 221, 220, 220),
+                      width: 1.0,
+                    ),
+                  ),
+                  child: TextFormField(
+                    controller: _controller,
+                    onChanged: (text) {
+                      setState(() {});
+                    },
+                    decoration: InputDecoration(
+                        border: InputBorder.none,
+                        hintText: 'Search for quizzes',
+                        contentPadding: EdgeInsets.fromLTRB(15, 20, 90, 10),
+                        labelStyle: GoogleFonts.comfortaa(
+                          textStyle: TextStyle(
+                            fontSize: 14,
+                            color: Color.fromARGB(255, 120, 120, 120),
+                            fontFamily: "Comfortaa",
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        suffixIcon: _controller.text.length > 0
+                            ? IconButton(
+                                onPressed: () {
+                                  _controller.clear();
+                                  setState(() {});
+                                },
+                                icon: Icon(Icons.cancel,
+                                    color: Color.fromARGB(255, 59, 58, 58)))
+                            : null),
                   ),
                 ),
-                suffixIcon: _controller.text.length > 0
-                    ? IconButton(
-                        onPressed: () {
-                          _controller.clear();
-                          setState(() {});
-                        },
-                        icon: Icon(Icons.cancel,
-                            color: Color.fromARGB(255, 59, 58, 58)))
-                    : null),
-          ),
-        ),
-        options(),
-        icons(),
-        MenuBar(),
-      ],
-    ))));
+                options(),
+                icons(),
+                MenuBar(),
+              ],
+            ))));
   }
 
   Widget icons() {
     return Container(
-      margin: EdgeInsets.only(top: 100),
+      margin: EdgeInsets.only(top: 80),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
