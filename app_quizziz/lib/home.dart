@@ -13,12 +13,10 @@ class _HomePageState extends State<HomePage> {
   final _controller = TextEditingController();
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: SafeArea(
-          child: Column(
-            children: [_appSettings(), _setting(), _information()],
-          ),
+    return Scaffold(
+      body: SafeArea(
+        child: Column(
+          children: [_appSettings(), _setting(), _information()],
         ),
       ),
     );

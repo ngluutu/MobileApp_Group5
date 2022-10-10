@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Search.dart';
+import 'package:flutter_application_1/activity_running.dart';
 import 'package:flutter_application_1/home.dart';
 import 'package:flutter_application_1/myclasses.dart';
 import 'package:flutter_application_1/setting.dart';
@@ -120,7 +121,7 @@ class _MainScreenState extends State<MainScreen> {
     } else if (selectedIndex == 1) {
       return const AppBarSearch();
     } else if (selectedIndex == 2) {
-      return Container();
+      return const Activity();
     } else if (selectedIndex == 3) {
       return const AppBarClasses();
     } else {
