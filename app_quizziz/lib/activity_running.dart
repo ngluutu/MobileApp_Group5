@@ -153,8 +153,8 @@ class _ActivityState extends State<Activity> {
   }
 }
 
-/*class AppBarClasses extends StatefulWidget {
-  const AppBarClasses({super.key});
+class AppBarActivity extends StatelessWidget {
+  const AppBarActivity({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -170,7 +170,7 @@ class _ActivityState extends State<Activity> {
           children: [
             const Padding(padding: EdgeInsets.symmetric(horizontal: 10)),
             Text(
-              'My Classes',
+              'Activity',
               style: GoogleFonts.comfortaa(
                 textStyle: const TextStyle(
                   color: Colors.black,
@@ -190,11 +190,4 @@ class _ActivityState extends State<Activity> {
       ],
     );
   }
-
-  @override
-  State<StatefulWidget> createState() {
-    // TODO: implement createState
-    throw UnimplementedError();
-  }
 }
-*/

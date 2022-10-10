@@ -107,7 +107,7 @@ class _MainScreenState extends State<MainScreen> {
     } else if (selectedIndex == 1) {
       return const SearchPage();
     } else if (selectedIndex == 2) {
-      return Container();
+      return const Activity();
     } else if (selectedIndex == 3) {
       return const MyClasses();
     } else {
@@ -121,7 +121,7 @@ class _MainScreenState extends State<MainScreen> {
     } else if (selectedIndex == 1) {
       return const AppBarSearch();
     } else if (selectedIndex == 2) {
-      return const Activity();
+      return const AppBarActivity();
     } else if (selectedIndex == 3) {
       return const AppBarClasses();
     } else {
