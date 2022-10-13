@@ -29,7 +29,8 @@ class _ActivityStateState extends State<ActivityState> {
                   ),
                   insets: EdgeInsets.only(left: 0, right: 8, bottom: 4)),
               isScrollable: true,
-
+              labelPadding: EdgeInsets.symmetric(horizontal: 8.0),
+              padding: EdgeInsets.only(right: 80),
               tabs: [
                 Tab(
                     child: Row(
