@@ -17,13 +17,7 @@ class _Activity_secondState extends State<Activity_second> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
-          child: Center(
-              child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [icons(), const MenuBar()],
-      ))),
+      body: SafeArea(child: icons()),
     );
   }
 
@@ -31,6 +25,8 @@ class _Activity_secondState extends State<Activity_second> {
     return Container(
         child: Center(
       child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Image.asset(
             'assets/girl.png',

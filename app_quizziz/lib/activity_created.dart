@@ -16,14 +16,7 @@ class _Activity_thirdState extends State<Activity_third> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
-          child: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [icons(), MenuBar()],
-        ),
-      )),
+      body: SafeArea(child: icons()),
     );
   }
 
@@ -31,6 +24,8 @@ class _Activity_thirdState extends State<Activity_third> {
     return Container(
         child: Center(
       child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Image.asset(
             'assets/girl.png',

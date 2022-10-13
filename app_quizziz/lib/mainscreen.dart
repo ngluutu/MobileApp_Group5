@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Search.dart';
+import 'package:flutter_application_1/activity_new.dart';
 import 'package:flutter_application_1/activity_running.dart';
 import 'package:flutter_application_1/home.dart';
 import 'package:flutter_application_1/myclasses.dart';
@@ -107,7 +108,7 @@ class _MainScreenState extends State<MainScreen> {
     } else if (selectedIndex == 1) {
       return const SearchPage();
     } else if (selectedIndex == 2) {
-      return const Activity();
+      return const ActivityState();
     } else if (selectedIndex == 3) {
       return const MyClasses();
     } else {
