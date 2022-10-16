@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/activity_created.dart';
-import 'package:flutter_application_1/activity_running.dart';
-import 'package:flutter_application_1/menubar.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 // ignore: camel_case_types
@@ -22,11 +19,9 @@ class _Activity_secondState extends State<Activity_second> {
   }
 
   Widget icons() {
-    return Container(
-        child: Center(
+    return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Image.asset(
             'assets/girl.png',
@@ -44,6 +39,6 @@ class _Activity_secondState extends State<Activity_second> {
           ),
         ],
       ),
-    ));
+    );
   }
 }

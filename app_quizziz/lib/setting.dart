@@ -21,6 +21,8 @@ class _SettingState extends State<Setting> {
   Locale updateLanguage() {
     if (globals.language == 'English') {
       return const Locale('en', 'en');
+    } else if (globals.language == 'French') {
+      return const Locale('en', 'fr');
     } else {
       return const Locale('en', 'vn');
     }
@@ -615,21 +617,9 @@ class _SettingState extends State<Setting> {
           title: const Text('Choose a language'),
           content: SizedBox(
             width: double.maxFinite,
-            // child: ListView.separated(
-            //   shrinkWrap: true,
-            //   itemBuilder: (context, index) {
-            //     return Text(locale[index]['name'].toString());
-            //   },
-            //   separatorBuilder: (context, index) {
-            //     return const Divider(
-            //       color: Colors.blue,
-            //     );
-            //   },
-            //   itemCount: locale.length,
-            // ),
             child: DropdownButton<String>(
               value: globals.language,
-              items: <String>['English', 'Vietnamese'].map((value) {
+              items: <String>['English', 'Vietnamese', 'French'].map((value) {
                 return DropdownMenuItem(
                   value: value,
                   child: Text(value),
@@ -661,7 +651,7 @@ class AppBarSetting extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
+        //const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
         Row(
           children: [
             const Padding(padding: EdgeInsets.symmetric(horizontal: 10)),

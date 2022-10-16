@@ -84,7 +84,7 @@ class _SearchPageState extends State<SearchPage> {
             height: 150,
           ),
           Text(
-            'Search for quizzes on math,',
+            'Search for quizzes on math,'.tr,
             style: GoogleFonts.comfortaa(
               textStyle: const TextStyle(
                 fontSize: 13,
@@ -93,7 +93,7 @@ class _SearchPageState extends State<SearchPage> {
             ),
           ),
           Text(
-            'science, history, and much',
+            'science, history, and much'.tr,
             style: GoogleFonts.comfortaa(
               textStyle: const TextStyle(
                 fontSize: 13,
@@ -102,7 +102,7 @@ class _SearchPageState extends State<SearchPage> {
             ),
           ),
           Text(
-            'more...',
+            'more...'.tr,
             style: GoogleFonts.comfortaa(
               textStyle: const TextStyle(
                 fontSize: 13,
@@ -144,7 +144,7 @@ class _SearchPageState extends State<SearchPage> {
           borderRadius: BorderRadius.circular(20),
         ),
         child: Text(
-          'Grade',
+          'Grade'.tr,
           style: GoogleFonts.comfortaa(
             textStyle: const TextStyle(fontSize: 11, color: Colors.black),
           ),
@@ -165,7 +165,7 @@ class _SearchPageState extends State<SearchPage> {
           borderRadius: BorderRadius.circular(20),
         ),
         child: Text(
-          'Subjects',
+          'Subjects'.tr,
           style: GoogleFonts.comfortaa(
             textStyle: const TextStyle(fontSize: 11, color: Colors.black),
           ),
@@ -186,7 +186,7 @@ class _SearchPageState extends State<SearchPage> {
           borderRadius: BorderRadius.circular(20),
         ),
         child: Text(
-          'Number of Questions',
+          'Number of Questions'.tr,
           style: GoogleFonts.comfortaa(
             textStyle: const TextStyle(fontSize: 11, color: Colors.black),
           ),
@@ -207,7 +207,7 @@ class _SearchPageState extends State<SearchPage> {
           borderRadius: BorderRadius.circular(20),
         ),
         child: Text(
-          'Languages',
+          'Languages'.tr,
           style: GoogleFonts.comfortaa(
             textStyle: const TextStyle(fontSize: 11, color: Colors.black),
           ),
@@ -226,7 +226,7 @@ class _SearchPageState extends State<SearchPage> {
           children: [
             const Padding(padding: EdgeInsets.symmetric(horizontal: 10)),
             Text(
-              'Search',
+              'Search'.tr,
               style: GoogleFonts.comfortaa(
                 textStyle: const TextStyle(
                   color: Colors.black,
@@ -260,12 +260,12 @@ class AppBarSearch extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
+        //const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
         Row(
           children: [
             const Padding(padding: EdgeInsets.symmetric(horizontal: 10)),
             Text(
-              'Search',
+              'Search'.tr,
               style: GoogleFonts.comfortaa(
                 textStyle: const TextStyle(
                   color: Colors.black,

@@ -144,7 +144,7 @@ class AppBarClasses extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
+        //const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
         Row(
           children: [
             const Padding(padding: EdgeInsets.symmetric(horizontal: 10)),

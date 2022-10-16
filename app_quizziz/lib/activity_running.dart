@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/activity_completed.dart';
-import 'package:flutter_application_1/activity_created.dart';
-import 'package:flutter_application_1/menubar.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Activity extends StatefulWidget {
@@ -20,11 +17,9 @@ class _ActivityState extends State<Activity> {
   }
 
   Widget icons() {
-    return Container(
-        child: Center(
+    return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Image.asset(
             'assets/girl.png',
@@ -42,7 +37,7 @@ class _ActivityState extends State<Activity> {
           ),
         ],
       ),
-    ));
+    );
   }
 }
 
@@ -58,7 +53,7 @@ class AppBarActivity extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
+        //const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
         Row(
           children: [
             const Padding(padding: EdgeInsets.symmetric(horizontal: 10)),

@@ -27,7 +27,7 @@ class _MainScreenState extends State<MainScreen> {
         child: Column(
           children: [
             const Padding(
-              padding: EdgeInsets.symmetric(vertical: 16.5),
+              padding: EdgeInsets.symmetric(vertical: 10),
             ),
             getAppBar(),
           ],
