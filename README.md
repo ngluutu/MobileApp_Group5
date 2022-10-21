@@ -28,3 +28,15 @@
 | <img src="https://user-images.githubusercontent.com/80797703/193206530-952f5aba-0572-4bcc-9905-bdfcc93c28de.jpg" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/80797703/193206584-7d17ec9a-6e75-48fd-8382-9f85da86501c.jpg" alt="" width="250"/> |
 |---|---|
 
+### Tuần 5 + 6 : Tiếp tục xây dựng các màn giao diện của ứng dụng
+
+
+### Tuần 7 : Tiến hành xây dựng back-end
+Các thao tác đã làm được
+- Thao tác chuyển giữa các màn hình (thanh bottom bar)
+- Thao tác chuyển ngôn ngữ của hệ thống (Vietnamese - English - France)
+Các thao tác đang học lý thuyết chuẩn bị đưa vào thực hành
+- Xây dựng database các quiz
+- Đọc file database vào trong hệ thống
+- Xây dựng màn hình chơi quiz
+
