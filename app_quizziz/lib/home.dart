@@ -24,13 +24,13 @@ class _HomePageState extends State<HomePage> {
     return Container(
         color: Colors.white,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             top(),
             _appSettings(),
-            const Padding(padding: EdgeInsets.symmetric(vertical: 20)),
+            // const Padding(padding: EdgeInsets.symmetric(vertical: 20)),
             _setting(),
-            const Padding(padding: EdgeInsets.symmetric(vertical: 100)),
+            // const Padding(padding: EdgeInsets.symmetric(vertical: 50)),
             const MenuBar(),
             const Padding(
               padding: EdgeInsets.symmetric(vertical: 5),
@@ -154,12 +154,10 @@ class _HomePageState extends State<HomePage> {
       ),
       child: Column(children: [
         Padding(padding: EdgeInsets.symmetric(vertical: 3)),
-        TextField(
-
-          decoration: InputDecoration(
-            border: OutlineInputBorder(),
-            hintText: 'Enter a join code',
-          ),
+        Container(
+          decoration: BoxDecoration(
+            
+          ) ,
         ),
         Padding(padding: EdgeInsets.symmetric(vertical: 4)),
         ClipRRect(
@@ -180,7 +178,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 onPressed: () {},
                 child:
-                    const Text('                 Join a game                 '),
+                    const Text('              Join a game              '),
               ),
             ],
           ),
@@ -341,7 +339,7 @@ class _HomePageState extends State<HomePage> {
     //   ]),
     // );
     return Container(
-      height: 103,
+      height: 130,
       width: 333,
       decoration: BoxDecoration(
           color: Color.fromARGB(0, 255, 255, 255),
@@ -350,7 +348,7 @@ class _HomePageState extends State<HomePage> {
           borderRadius: BorderRadius.circular(10)),
       child: Column(
         children: [
-          Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+          Padding(padding: EdgeInsets.symmetric(vertical: 10)),
           Text(
             "Let's get you started",
             style: GoogleFonts.comfortaa(
@@ -424,43 +422,43 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  Widget _information() {
-    return Container(
-        child: Column(
-      children: [
-        Text('Contact us',
-            style: GoogleFonts.comfortaa(
-                textStyle: const TextStyle(
-              color: Color.fromRGBO(136, 136, 138, 1),
-              fontSize: 13,
-              fontWeight: FontWeight.bold,
-              decoration: TextDecoration.underline,
-            ))),
-        Text('Terms of service',
-            style: GoogleFonts.comfortaa(
-                textStyle: const TextStyle(
-              color: Color.fromRGBO(136, 136, 138, 1),
-              fontSize: 13,
-              fontWeight: FontWeight.bold,
-              decoration: TextDecoration.underline,
-            ))),
-        Text('Privacy policy',
-            style: GoogleFonts.comfortaa(
-                textStyle: const TextStyle(
-              color: Color.fromRGBO(136, 136, 138, 1),
-              fontSize: 13,
-              fontWeight: FontWeight.bold,
-              decoration: TextDecoration.underline,
-            ))),
-        Text('v6.23.164.1',
-            style: GoogleFonts.comfortaa(
-                textStyle: const TextStyle(
-              color: Color.fromRGBO(203, 203, 203, 1),
-              fontSize: 13,
-              fontWeight: FontWeight.bold,
-              decoration: TextDecoration.underline,
-            ))),
-      ],
-    ));
-  }
+  // Widget _information() {
+  //   return Container(
+  //       child: Column(
+  //     children: [
+  //       Text('Contact us',
+  //           style: GoogleFonts.comfortaa(
+  //               textStyle: const TextStyle(
+  //             color: Color.fromRGBO(136, 136, 138, 1),
+  //             fontSize: 13,
+  //             fontWeight: FontWeight.bold,
+  //             decoration: TextDecoration.underline,
+  //           ))),
+  //       Text('Terms of service',
+  //           style: GoogleFonts.comfortaa(
+  //               textStyle: const TextStyle(
+  //             color: Color.fromRGBO(136, 136, 138, 1),
+  //             fontSize: 13,
+  //             fontWeight: FontWeight.bold,
+  //             decoration: TextDecoration.underline,
+  //           ))),
+  //       Text('Privacy policy',
+  //           style: GoogleFonts.comfortaa(
+  //               textStyle: const TextStyle(
+  //             color: Color.fromRGBO(136, 136, 138, 1),
+  //             fontSize: 13,
+  //             fontWeight: FontWeight.bold,
+  //             decoration: TextDecoration.underline,
+  //           ))),
+  //       Text('v6.23.164.1',
+  //           style: GoogleFonts.comfortaa(
+  //               textStyle: const TextStyle(
+  //             color: Color.fromRGBO(203, 203, 203, 1),
+  //             fontSize: 13,
+  //             fontWeight: FontWeight.bold,
+  //             decoration: TextDecoration.underline,
+  //           ))),
+  //     ],
+  //   ));
+  // }
 }
