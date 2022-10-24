@@ -29,29 +29,30 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  flutter:
-    sdk: flutter
-
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  dot_navigation_bar: ^1.0.1+4
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.1.5
+  get:
   google_fonts: ^3.0.1
   resizable_widget: ^1.0.5
-  flutter_svg: ^1.1.5
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.10.0"
+  flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
+  lint: ^1.5.3
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.0
-
-  flutter_launcher_icons: "^0.10.0"
+  
 
 flutter_icons:
   android: "launcher_icon"
@@ -65,6 +66,17 @@ flutter_icons:
 flutter:
   assets:
     - assets/quizizz_logo.jpg
+    - assets/boy.png
+    - assets/classic.png
+    - assets/darknight.jpg
+    - assets/dogsville.jpg
+    - assets/frameim.jpg
+    - assets/touchdown.png
+    - assets/myclasses.png
+    - assets/clock1.png
+    - assets/clock2.png
+    - assets/girl.png
+    - assets/document.png
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
