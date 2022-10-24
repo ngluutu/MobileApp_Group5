@@ -16,62 +16,66 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: SafeArea(
         child: Column(
-          children: [_appSettings(), _setting(), _information()],
+          children: [
+            Padding(padding: EdgeInsets.symmetric(vertical: 10)),
+            _appSettings(),
+            Padding(padding: EdgeInsets.symmetric(vertical: 20)),
+            _setting()],
         ),
       ),
     );
   }
 
-  Widget _information() {
-    return Column(
-      children: [
-        Text(
-          'Contact us',
-          style: GoogleFonts.comfortaa(
-            textStyle: const TextStyle(
-              color: Color.fromRGBO(136, 136, 138, 1),
-              fontSize: 13,
-              fontWeight: FontWeight.bold,
-              decoration: TextDecoration.underline,
-            ),
-          ),
-        ),
-        Text(
-          'Terms of service',
-          style: GoogleFonts.comfortaa(
-            textStyle: const TextStyle(
-              color: Color.fromRGBO(136, 136, 138, 1),
-              fontSize: 13,
-              fontWeight: FontWeight.bold,
-              decoration: TextDecoration.underline,
-            ),
-          ),
-        ),
-        Text(
-          'Privacy policy',
-          style: GoogleFonts.comfortaa(
-            textStyle: const TextStyle(
-              color: Color.fromRGBO(136, 136, 138, 1),
-              fontSize: 13,
-              fontWeight: FontWeight.bold,
-              decoration: TextDecoration.underline,
-            ),
-          ),
-        ),
-        Text(
-          'v6.23.164.1',
-          style: GoogleFonts.comfortaa(
-            textStyle: const TextStyle(
-              color: Color.fromRGBO(203, 203, 203, 1),
-              fontSize: 13,
-              fontWeight: FontWeight.bold,
-              decoration: TextDecoration.underline,
-            ),
-          ),
-        ),
-      ],
-    );
-  }
+  // Widget _information() {
+  //   return Column(
+  //     children: [
+  //       Text(
+  //         'Contact us',
+  //         style: GoogleFonts.comfortaa(
+  //           textStyle: const TextStyle(
+  //             color: Color.fromRGBO(136, 136, 138, 1),
+  //             fontSize: 13,
+  //             fontWeight: FontWeight.bold,
+  //             decoration: TextDecoration.underline,
+  //           ),
+  //         ),
+  //       ),
+  //       Text(
+  //         'Terms of service',
+  //         style: GoogleFonts.comfortaa(
+  //           textStyle: const TextStyle(
+  //             color: Color.fromRGBO(136, 136, 138, 1),
+  //             fontSize: 13,
+  //             fontWeight: FontWeight.bold,
+  //             decoration: TextDecoration.underline,
+  //           ),
+  //         ),
+  //       ),
+  //       Text(
+  //         'Privacy policy',
+  //         style: GoogleFonts.comfortaa(
+  //           textStyle: const TextStyle(
+  //             color: Color.fromRGBO(136, 136, 138, 1),
+  //             fontSize: 13,
+  //             fontWeight: FontWeight.bold,
+  //             decoration: TextDecoration.underline,
+  //           ),
+  //         ),
+  //       ),
+  //       Text(
+  //         'v6.23.164.1',
+  //         style: GoogleFonts.comfortaa(
+  //           textStyle: const TextStyle(
+  //             color: Color.fromRGBO(203, 203, 203, 1),
+  //             fontSize: 13,
+  //             fontWeight: FontWeight.bold,
+  //             decoration: TextDecoration.underline,
+  //           ),
+  //         ),
+  //       ),
+  //     ],
+  //   );
+  // }
 
   Widget _setting() {
     return Container(
