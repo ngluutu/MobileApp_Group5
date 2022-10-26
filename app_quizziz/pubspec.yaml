@@ -31,6 +31,7 @@ environment:
 dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
+  audioplayers: ^0.20.1
   cupertino_icons: ^1.0.2
   dot_navigation_bar: ^1.0.1+4
   flutter:
@@ -77,6 +78,7 @@ flutter:
     - assets/clock2.png
     - assets/girl.png
     - assets/document.png
+    - assets/Kalimba.mp3
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

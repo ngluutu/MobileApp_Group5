@@ -101,6 +101,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
           ),
+          Padding(padding: EdgeInsets.symmetric(vertical: 5)),
           FittedBox(
             child: Row(
               children: [logIn(), signUp()],
