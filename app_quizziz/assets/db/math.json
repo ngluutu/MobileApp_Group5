@@ -1,0 +1,284 @@
+{
+    "id": "q001",
+    "title": "Maths Basic",
+    "image_url": "",
+    "Description": "Basic Maths Multiple Choice Questions (MCQ) to practice basic Maths quiz answers",
+    "questions": [
+        {
+            "id": "ppr003q001",
+            "question": "Jenna has 82 apples. She gives Sam 28 apples. How many apples does Jenna have now?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "45"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "108"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "54"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "37"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr003q002",
+            "question": "Max and Billy went to a farm! Max collected 18 eggs and Billy collected 29 eggs. How many eggs did they collect in total.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "74"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "22"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "80"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "47"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr003q003",
+            "question": "what is 2/10 + 15/100 equal?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "17"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "35/100"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "30/100"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "17/100"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q004",
+            "question": "How many times greater is 2,340 than 234?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "20 times"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "100 times"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "10 times"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "1 time"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr003q005",
+            "question": "How many sides does a quadrilateral have?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "5"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "3"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "2"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "4"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr003q006",
+            "question": "What is three fifth of 100?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "3"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "5"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "20"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "60"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr003q007",
+            "question": "If David's age is 27 years old in 2011. What was his age in 2003?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "17"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "18"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "20"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "19"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr003q008",
+            "question": "What is the remainder of 21 divided by 7?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "7"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "21"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "0"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "1"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr003q009",
+            "question": "I am a number. I have 7 in the ones place. I am less than 80 but greater than 70. What is my number?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "71"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "77"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "75"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "79"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q010",
+            "question": "A car can cover a distance of 522 km on 36 liters of petrol. How far can it travel on 14 liters of petrol?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "203"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "223"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "302"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "213"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q011",
+            "question": "Fill in the blanks; 4, 6, 12, 14, 28, 30, (?)",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "60"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "62"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "64"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "32"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q012",
+            "question": "Simplify :150 ÷ (6 + 3 x 8) - 5",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "2"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "5"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "0"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "1"
+                }
+            ],
+            "correct_answer": "C"
+        }
+    ]
+}

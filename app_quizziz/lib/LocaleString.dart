@@ -7,7 +7,7 @@ class LocalString extends Translations {
   // TODO: implement keys
   Map<String, Map<String, String>> get keys => {
         'en_en': {
-          'Enter a join code': 'Enter a join code',
+          'Enter join code': 'Enter join code',
           'Join a game': 'Join a game',
           "Let's get you started": "Let's get you started",
           'Log in': 'Log in',
@@ -43,9 +43,16 @@ class LocalString extends Translations {
           'Search for quizzes on math,': 'Search for quizzes on math,',
           'science, history, and much': 'science, history, and much',
           'more...': 'more...',
+          'Running': 'Running',
+          'Completed': 'Completed',
+          'Created': 'Created',
+          "You haven't played any game yet!":
+              "You haven't played any game yet!",
+          "You haven't created any game yet!":
+              "You haven't created any game yet!",
         },
         'en_vn': {
-          'Enter a join code': 'Nhập mã tham gia',
+          'Enter join code': 'Nhập mã tham gia',
           'Join a game': 'Tham gia một trò chơi',
           "Let's get you started": 'Hãy bắt đầu nào',
           'Log in': 'Đăng nhập',
@@ -72,7 +79,7 @@ class LocalString extends Translations {
           'Quizizz is more fun with friend.':
               'Quizizz sẽ vui hơn nếu có bạn bè.',
           'Join a class': 'Tham gia một lớp học',
-          'Search fpr quizzes': 'Tìm kiếm quiz',
+          'Search for quizzes': 'Tìm kiếm quiz',
           'Grade': 'Lớp',
           'Subjects': 'Môn học',
           'Number of Questions': 'Số lượng câu hỏi',
@@ -80,9 +87,16 @@ class LocalString extends Translations {
           'Search for quizzes on math,': 'Tìm kiếm các câu đố về toán học,',
           'science, history, and much': 'khoa học, lịch sử, và nhiều hơn',
           'more...': 'nữa...',
+          'Running': 'Đang chạy',
+          'Completed': 'Hoàn thành',
+          'Created': 'Tạo',
+          "You haven't played any game yet!":
+              'Bạn chưa chơi bất kỳ trò chơi nào!',
+          "You haven't created any game yet!":
+              'Bạn chưa tạo bất kỳ trò chơi nào!',
         },
         'en_fr': {
-          'Enter a join code': "Saisissez un code d'adhésion",
+          'Enter join code': "Saisissez un code d'adhésion",
           'Join a game': 'Rejoindre un jeu',
           "Let's get you started": 'Commençons',
           'Log in': "S'identifier",
@@ -118,6 +132,13 @@ class LocalString extends Translations {
           'Search for quizzes on math,': 'Cherchez des quiz sur les,',
           'science, history, and much': 'mathématiques, les sciences,',
           'more...': "l'histoire et bien plus encore...",
+          'Running': "En cours d'exécution",
+          'Completed': 'Terminé',
+          'Created': 'Créé',
+          "You haven't played any game yet!":
+              "Vous n'avez encore joué à aucun jeu!",
+          "You haven't created any game yet!":
+              "Vous n'avez pas encore créé de quiz!",
         },
       };
 }

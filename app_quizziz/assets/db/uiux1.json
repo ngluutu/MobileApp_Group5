@@ -1,0 +1,239 @@
+{
+    "id": "q002",
+    "title": "UI/UX (Part 1)",
+    "image_url": "",
+    "Description": "Basic UI_UX Multiple Choice Questions (MCQ) to practice basic UI_UX quiz answers",
+    "time_seconds": 900,
+    "questions": [
+        {
+            "id": "ppr003q001",
+            "question": "In cognitive walkthrough, formal method for evaluating a UI without who?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Users"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Developers"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Project Manager"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Testers"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q002",
+            "question": "Which of the following is a type of evaluation methods without user?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Heuristic Evaluation"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Field studies"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Controlled lab studies"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Qualitative usability studies"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q003",
+            "question": "What is cognitive walkthrough?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Formal method for evaluating UI without users"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Formal method for evaluating UI with users"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "New method for evaluating UI without users"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "New method for evaluating UI with users"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q004",
+            "question": "How many points do you get for having the heuristic be correctly applied and the severity assessment be reasonable?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "1 points"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "10 points"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "2 points"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "0 points"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr003q005",
+            "question": "What is not important when choosing user as tester?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Background"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Quality"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Amount"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Body"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr003q006",
+            "question": "Which will be provided with of a situating context for your user test?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Objectives"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Task"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Users"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Short description"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr003q007",
+            "question": "When might it especially be appropriate to recruit 40-60 participants?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Summative tests"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Field tests"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Lab tests"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Formative tests"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q008",
+            "question": "How many important principles of ethics in User evaluation?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "3"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "2"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "1"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "4"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q009",
+            "question": "What is principle number two when evaluating users?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Do no harm"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Informed consent"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Do harm"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Non informed consent"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q010",
+            "question": "In KLM which of these actions is cognitive?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Decide among alternatives"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Moving your hand from mouse to keyboard"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Focusing your gaze on the screen"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Typing a character"
+                }
+            ],
+            "correct_answer": "A"
+        }
+    ]
+}

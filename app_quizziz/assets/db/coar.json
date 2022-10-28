@@ -1,0 +1,239 @@
+{
+    "id": "ppr003",
+    "title": "Causes of the American Revolution",
+    "image_url": "",
+    "Description": "Basic History Multiple Choice Questions (MCQ) to practice basic History quiz answers",
+    "time_seconds": 900,
+    "questions": [
+        {
+            "id": "ppr003q001",
+            "question": "Which concern of the colonists led to the American Revolution?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Opposition to British tax policies"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Desire for greater religious freedom"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Fear of attacks by American Indians"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Increasing immigration from countries other than Britain"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q002",
+            "question": "Colonists protested the Stamp Act because they believed in what phrase?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Live free or die"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "All men are created equal"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Life, liberty, and pursuit of happiness"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "No taxation with representation"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr003q003",
+            "question": "Sons of Liberty were a group of American colonists who worked to repeal the Stamp Act by doing what?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Taking military action against the British"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Publicly protesting and organizing boycotts"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Meeting with Parliament in England "
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Forming alliances with the enemies of Britain"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q004",
+            "question": "In response to the Tea Act, the colonists threw tea from the British ships into the Boston Harbor. This event is known as:",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Boston Market"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Boston Riots"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Boston Tea Party"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Boston Massacre"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr003q005",
+            "question": "Who was the King of Britain at the time of the Revolutionary War?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "King Henry I"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "King George I"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "King Henry VIII"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "King George III"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr003q006",
+            "question": "An angry crowd of workers surrounded a small group of British soldiers and were fired upon?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Boston Massacre"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Boston Rebellion"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Boston Tea Party"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Boston Treaty"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q007",
+            "question": "Why did the king begin to tax the colonists?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "He needed money to pay off war debts from the French and Indian War"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "He wanted more money to make England look better"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "He hated the colonists' guts"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "He needed money to pay for Boston soldiers"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q008",
+            "question": "Why could the colonists not move West of the Appalachian mountains after the French and Indian war?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "To avoid conflicts with the French "
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "To avoid conflicts with the Natives"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "To avoid conflicts with the British"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "To avoid conflicts with the UK"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q009",
+            "question": "First person killed in the Boston Massacre",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Crispus Attucks"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "General Wolfe"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Samuel Adams"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Benjamin Franklin"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q010",
+            "question": "His engraving of the Boston Massacre is a great example of propaganda",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Paul Revere"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Samuel Adams"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "George Washington"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Benjamin Franklin"
+                }
+            ],
+            "correct_answer": "A"
+        }
+    ]
+}

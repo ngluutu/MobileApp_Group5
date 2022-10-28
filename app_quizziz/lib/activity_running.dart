@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Activity extends StatefulWidget {
@@ -27,7 +28,7 @@ class _ActivityState extends State<Activity> {
             height: 150,
           ),
           Text(
-            'You haven’t played any game yet! ',
+            "You haven't played any game yet!".tr,
             style: GoogleFonts.comfortaa(
               textStyle: const TextStyle(
                 fontSize: 13,
@@ -58,7 +59,7 @@ class AppBarActivity extends StatelessWidget {
           children: [
             const Padding(padding: EdgeInsets.symmetric(horizontal: 10)),
             Text(
-              'Activity',
+              'Activity'.tr,
               style: GoogleFonts.comfortaa(
                 textStyle: const TextStyle(
                   color: Colors.black,

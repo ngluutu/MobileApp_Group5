@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 // ignore: camel_case_types
@@ -29,7 +30,7 @@ class _Activity_secondState extends State<Activity_second> {
             height: 150,
           ),
           Text(
-            'You haven’t played any game yet! ',
+            "You haven't played any game yet!".tr,
             style: GoogleFonts.comfortaa(
               textStyle: const TextStyle(
                 fontSize: 13,

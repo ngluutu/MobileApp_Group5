@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "520916193250",
+    "project_id": "quizizz-app",
+    "storage_bucket": "quizizz-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520916193250:android:cc227279dd941e7fa233bb",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520916193250-0puvi0f3o0nt4q8vcisnmu7npnr7sruk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_QWtqLobijmJartF6X9FqOGJpACzc8Rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520916193250-0puvi0f3o0nt4q8vcisnmu7npnr7sruk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

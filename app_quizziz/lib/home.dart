@@ -14,62 +14,12 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
-          children: [_appSettings(), _setting(), _information()],
+          children: [_appSettings(), _setting()],
         ),
       ),
-    );
-  }
-
-  Widget _information() {
-    return Column(
-      children: [
-        Text(
-          'Contact us',
-          style: GoogleFonts.comfortaa(
-            textStyle: const TextStyle(
-              color: Color.fromRGBO(136, 136, 138, 1),
-              fontSize: 13,
-              fontWeight: FontWeight.bold,
-              decoration: TextDecoration.underline,
-            ),
-          ),
-        ),
-        Text(
-          'Terms of service',
-          style: GoogleFonts.comfortaa(
-            textStyle: const TextStyle(
-              color: Color.fromRGBO(136, 136, 138, 1),
-              fontSize: 13,
-              fontWeight: FontWeight.bold,
-              decoration: TextDecoration.underline,
-            ),
-          ),
-        ),
-        Text(
-          'Privacy policy',
-          style: GoogleFonts.comfortaa(
-            textStyle: const TextStyle(
-              color: Color.fromRGBO(136, 136, 138, 1),
-              fontSize: 13,
-              fontWeight: FontWeight.bold,
-              decoration: TextDecoration.underline,
-            ),
-          ),
-        ),
-        Text(
-          'v6.23.164.1',
-          style: GoogleFonts.comfortaa(
-            textStyle: const TextStyle(
-              color: Color.fromRGBO(203, 203, 203, 1),
-              fontSize: 13,
-              fontWeight: FontWeight.bold,
-              decoration: TextDecoration.underline,
-            ),
-          ),
-        ),
-      ],
     );
   }
 
@@ -262,7 +212,18 @@ class AppBarHome extends StatelessWidget {
         Row(
           children: [
             const Padding(padding: EdgeInsets.symmetric(horizontal: 10)),
-            Image.asset('assets/quizizz_logo.jpg', width: 109, height: 40)
+            //Image.asset('assets/quizizz_logo.jpg', width: 109, height: 40)
+            Text(
+              'Quizizz'.tr,
+              style: GoogleFonts.comfortaa(
+                textStyle: const TextStyle(
+                  color: Color.fromRGBO(82, 36, 83, 1),
+                  //fontFamily: "Comfortaa",
+                  fontSize: 25,
+                  fontWeight: FontWeight.w900,
+                ),
+              ),
+            ),
           ],
         ),
         const Padding(padding: EdgeInsets.symmetric(vertical: 10)),

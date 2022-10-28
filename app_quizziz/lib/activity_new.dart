@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/activity_completed.dart';
 import 'package:flutter_application_1/activity_created.dart';
 import 'package:flutter_application_1/activity_running.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ActivityState extends StatefulWidget {
@@ -17,6 +18,7 @@ class _ActivityStateState extends State<ActivityState> {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
+        backgroundColor: Colors.white,
         body: Column(
           children: [
             TabBar(
@@ -29,14 +31,14 @@ class _ActivityStateState extends State<ActivityState> {
                 insets: EdgeInsets.only(right: 8, bottom: 4),
               ),
               isScrollable: true,
-              labelPadding: EdgeInsets.symmetric(horizontal: 8.0),
-              padding: EdgeInsets.only(right: 80),
+              labelPadding: const EdgeInsets.symmetric(horizontal: 8.0),
+              padding: const EdgeInsets.only(right: 80),
               tabs: [
                 Tab(
                   child: Row(
                     children: [
                       Text(
-                        'Running',
+                        'Running'.tr,
                         style: GoogleFonts.comfortaa(
                           textStyle: const TextStyle(
                             color: Colors.black,
@@ -58,7 +60,7 @@ class _ActivityStateState extends State<ActivityState> {
                   child: Row(
                     children: [
                       Text(
-                        'Completed',
+                        'Completed'.tr,
                         style: GoogleFonts.comfortaa(
                           textStyle: const TextStyle(
                             color: Colors.black,
@@ -80,7 +82,7 @@ class _ActivityStateState extends State<ActivityState> {
                   child: Row(
                     children: [
                       Text(
-                        'Created',
+                        'Created'.tr,
                         style: GoogleFonts.comfortaa(
                           textStyle: const TextStyle(
                             color: Colors.black,

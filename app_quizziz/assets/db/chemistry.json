@@ -1,0 +1,238 @@
+{
+    "id": "ppr003",
+    "title": "Chemistry Basic",
+    "image_url": "",
+    "Description": "Basic Chemistry Multiple Choice Questions (MCQ) to practice basic Chemistry quiz answers",
+    "questions": [
+        {
+            "id": "ppr002q001",
+            "question": "What is the chemical symbol for carbon?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "C"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Ca"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Cn"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Crn"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr002q002",
+            "question": "Which of the following is also known as wood alcohol?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Methanol"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Ethanol"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Propanal"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Butanol"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr002q003",
+            "question": "When we combined vinegar and baking soda and created carbon dioxide what was the product?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Vinegar"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Carbon dioxide and baking soda"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Carbon dioxide"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Vinegar and baking soda"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr002q004",
+            "question": "Which of the following is a unit of eletric current:",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Ohm"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Volt"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Watt"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Amp"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr002q005",
+            "question": "Which acid is described as HOOC-COOH?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Citric Acid"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Oxalic Acid"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Acetic Acid"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Carbonic Acid"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr002q006",
+            "question": "Which of the following is the most active chemically?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Chlorine"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Flourine"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Lithium"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Iodine"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr002q007",
+            "question": "Which among the following metals is the hardest metal?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Platinum"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Gold"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Iron"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Tungsten"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr002q008",
+            "question": "When Aluminum and Oxygen combine, the correct formula is?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "AlO"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Al3O2"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Al2O3"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Al4O3"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr002q009",
+            "question": "Which one of the following is a weak acid?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "HNO3"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "HI"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "HBr"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "HF"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr002q010",
+            "question": "Which of the following boils at the highest temperature?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "CH4"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "C2H6"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "C3H8"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "C4H10"
+                }
+            ],
+            "correct_answer": "D"
+        }
+    ]
+}
