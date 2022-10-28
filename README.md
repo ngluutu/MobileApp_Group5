@@ -34,6 +34,7 @@ Thao tác đã làm được
 - Thao tác chuyển giữa các màn (sử dụng bottom navigation bar)
 - Chuyển ngôn ngữ của các màn hình (Vietnamese - English - French)
 - Màn hình chơi quiz
+- Bật/tắt Background music
 
 | <img src="https://user-images.githubusercontent.com/80797703/198460772-82194ccd-82a6-4429-b556-5ddf666fd3ab.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/80797703/198460916-95a6a5e6-bbf4-4a10-a0c6-74752fa007c2.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/80797703/198461080-1d359f2b-00c5-472b-953e-94d05bb99fc0.png" alt="" width="250"/> |
 |---|---|---|
