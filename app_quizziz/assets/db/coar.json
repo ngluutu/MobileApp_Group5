@@ -1,9 +1,9 @@
 {
     "id": "ppr003",
     "title": "Causes of the American Revolution",
-    "image_url": "",
+    "image_url": "assets/quiz/coar.jpg",
     "Description": "Basic History Multiple Choice Questions (MCQ) to practice basic History quiz answers",
-    "time_seconds": 900,
+    "number_of_questions": "10",
     "questions": [
         {
             "id": "ppr003q001",

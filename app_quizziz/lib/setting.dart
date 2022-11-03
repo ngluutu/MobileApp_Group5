@@ -1,6 +1,7 @@
 // ignore_for_file: use_colored_box
-
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_application_1/globals.dart' as globals;
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -13,6 +14,35 @@ class Setting extends StatefulWidget {
 }
 
 class _SettingState extends State<Setting> {
+  AudioPlayer player = AudioPlayer();
+  String audioasset = 'assets/Kalimba.mp3';
+  bool isplaying = false;
+  bool audioplayed = false;
+  late Uint8List audiobytes;
+
+  @override
+  void initState() {
+    Future.delayed(Duration.zero, () async {
+      final ByteData bytes =
+          await rootBundle.load(audioasset); //load audio from assets
+      audiobytes =
+          bytes.buffer.asUint8List(bytes.offsetInBytes, bytes.lengthInBytes);
+      //convert ByteData to Uint8List
+
+      player.onDurationChanged.listen((Duration d) {
+        //get the duration of audio
+        setState(() {});
+      });
+
+      player.onAudioPositionChanged.listen((Duration p) {
+        setState(() {
+          //refresh the UI
+        });
+      });
+    });
+    super.initState();
+  }
+
   bool readAloud = false;
   bool music = false;
   bool sound = false;
@@ -38,9 +68,7 @@ class _SettingState extends State<Setting> {
           color: Colors.white,
           margin: const EdgeInsets.only(left: 10, right: 10),
           child: ListView(
-            //color: Colors.white,
             children: <Widget>[
-              //top(),
               const Padding(
                 padding: EdgeInsets.symmetric(vertical: 10),
               ),
@@ -293,7 +321,23 @@ class _SettingState extends State<Setting> {
               Switch(
                 value: music,
                 activeColor: Colors.green,
-                onChanged: (bool value) {
+                onChanged: (bool value) async {
+                  isplaying = !value;
+                  if (!isplaying) {
+                    final int result = await player.playBytes(audiobytes);
+                    if (result == 1) {
+                      setState(() {
+                        isplaying = true;
+                      });
+                    }
+                  } else {
+                    final int result = await player.pause();
+                    if (result == 1) {
+                      setState(() {
+                        isplaying = false;
+                      });
+                    }
+                  }
                   setState(() {
                     music = value;
                   });
@@ -651,7 +695,7 @@ class AppBarSetting extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        //const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
+        const Padding(padding: EdgeInsets.symmetric(vertical: 2.25)),
         Row(
           children: [
             const Padding(padding: EdgeInsets.symmetric(horizontal: 10)),
@@ -668,7 +712,7 @@ class AppBarSetting extends StatelessWidget {
             ),
           ],
         ),
-        const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
+        const Padding(padding: EdgeInsets.symmetric(vertical: 12.25)),
         const Divider(
           color: Color.fromRGBO(196, 196, 196, 1),
           height: 0,

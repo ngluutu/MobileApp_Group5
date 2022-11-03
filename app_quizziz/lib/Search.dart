@@ -261,7 +261,7 @@ class AppBarSearch extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        //const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
+        const Padding(padding: EdgeInsets.symmetric(vertical: 2.25)),
         Row(
           children: [
             const Padding(padding: EdgeInsets.symmetric(horizontal: 10)),
@@ -278,7 +278,7 @@ class AppBarSearch extends StatelessWidget {
             ),
           ],
         ),
-        const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
+        const Padding(padding: EdgeInsets.symmetric(vertical: 12.25)),
         const Divider(
           color: Color.fromRGBO(196, 196, 196, 1),
           height: 0,

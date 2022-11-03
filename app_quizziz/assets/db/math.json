@@ -1,8 +1,9 @@
 {
     "id": "q001",
     "title": "Maths Basic",
-    "image_url": "",
+    "image_url": "assets/quiz/math.jpg",
     "Description": "Basic Maths Multiple Choice Questions (MCQ) to practice basic Maths quiz answers",
+    "number_of_questions": "12",
     "questions": [
         {
             "id": "ppr003q001",
@@ -52,7 +53,7 @@
         },
         {
             "id": "ppr003q003",
-            "question": "what is 2/10 + 15/100 equal?",
+            "question": "What is 2/10 + 15/100 equal?",
             "answers": [
                 {
                     "identifier": "A",

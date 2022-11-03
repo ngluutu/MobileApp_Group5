@@ -1,8 +1,9 @@
 {
     "id": "ppr003",
     "title": "Chemistry Basic",
-    "image_url": "",
+    "image_url": "assets/quiz/chemistry.png",
     "Description": "Basic Chemistry Multiple Choice Questions (MCQ) to practice basic Chemistry quiz answers",
+    "number_of_questions": "10",
     "questions": [
         {
             "id": "ppr002q001",

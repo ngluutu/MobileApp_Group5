@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/get_quiz/list_of_quiz.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -16,8 +17,15 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
-        child: Column(
-          children: [_appSettings(), _setting()],
+        child: ListView(
+          children: [
+            const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
+            _appSettings(),
+            const Padding(padding: EdgeInsets.symmetric(vertical: 20)),
+            _setting(),
+            const Padding(padding: EdgeInsets.symmetric(vertical: 20)),
+            const ListQuiz(),
+          ],
         ),
       ),
     );
@@ -47,6 +55,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
           ),
+          const Padding(padding: EdgeInsets.symmetric(vertical: 5)),
           FittedBox(
             child: Row(
               children: [logIn(), signUp()],
@@ -206,9 +215,9 @@ class AppBarHome extends StatelessWidget {
 
   Widget top() {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.end,
       children: [
-        //const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
+        const Padding(padding: EdgeInsets.symmetric(vertical: 2.25)),
         Row(
           children: [
             const Padding(padding: EdgeInsets.symmetric(horizontal: 10)),
@@ -226,7 +235,7 @@ class AppBarHome extends StatelessWidget {
             ),
           ],
         ),
-        const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
+        const Padding(padding: EdgeInsets.symmetric(vertical: 12.25)),
         const Divider(
           color: Color.fromRGBO(196, 196, 196, 1),
           height: 0,

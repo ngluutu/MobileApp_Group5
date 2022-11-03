@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_application_1/LocaleString.dart';
-import 'package:flutter_application_1/get_quiz/countdown_widget.dart';
-import 'package:flutter_application_1/get_quiz/get_math_quiz.dart';
-import 'package:flutter_application_1/get_quiz/list_of_quiz.dart';
 import 'package:flutter_application_1/globals.dart' as globals;
 import 'package:flutter_application_1/mainscreen.dart';
 import 'package:get/get.dart';
@@ -40,7 +37,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       translations: LocalString(),
       locale: updateLanguage(),
-      home: const MathQuiz(),
+      home: const MainScreen(),
     );
   }
 }

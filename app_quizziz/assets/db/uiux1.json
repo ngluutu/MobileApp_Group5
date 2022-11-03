@@ -1,9 +1,9 @@
 {
     "id": "q002",
     "title": "UI/UX (Part 1)",
-    "image_url": "",
+    "image_url": "assets/quiz/uiux.jpg",
     "Description": "Basic UI_UX Multiple Choice Questions (MCQ) to practice basic UI_UX quiz answers",
-    "time_seconds": 900,
+    "number_of_questions": "10",
     "questions": [
         {
             "id": "ppr003q001",

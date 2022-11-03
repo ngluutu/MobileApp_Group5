@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Search.dart';
 import 'package:flutter_application_1/activity_new.dart';
 import 'package:flutter_application_1/activity_running.dart';
 import 'package:flutter_application_1/home.dart';
 import 'package:flutter_application_1/myclasses.dart';
+import 'package:flutter_application_1/search.dart';
 import 'package:flutter_application_1/setting.dart';
 import 'package:get/get.dart';
 
