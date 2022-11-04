@@ -50,7 +50,7 @@ Thao tác đã làm được
 
 - Coverage Test
 
-![image](https://user-images.githubusercontent.com/80797703/199878904-d0d895a9-852c-410c-8ea3-1dea93d666a8.png)
+![image](https://user-images.githubusercontent.com/80797703/199882565-6aa31830-00aa-467c-996e-09aec046abfb.png)
 
 
 
