@@ -42,7 +42,7 @@ Thao tác đã làm được
 | <img src="https://user-images.githubusercontent.com/80797703/198464338-101afbf8-e506-4fd8-afae-7ff14bc70840.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/80797703/198464644-1c35332c-7b54-4bb1-840b-17f5c7d88987.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/80797703/198465122-a2455f40-2dca-4a93-8907-b2fb3dab64e8.png" alt="" width="250"/> |
 | <img src="https://user-images.githubusercontent.com/80797703/198465552-0b629d06-7167-4d9f-b02f-1f5b110371c0.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/80797703/198465902-be504274-a275-4949-b0cb-b97d85898927.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/80797703/198466159-9706c6c5-38f0-4bc1-b43b-fda7703714be.png" alt="" width="250"/> |
 
-### Tuần 8 : 
+### Tuần 8 + 9 
 - Kiểm thử Monkey Test
 
 ![image](https://user-images.githubusercontent.com/80797703/198521752-922a7909-3e61-4cc3-9350-8b0553f4cd77.png)
@@ -50,9 +50,15 @@ Thao tác đã làm được
 
 - Coverage Test
 
-![image](https://user-images.githubusercontent.com/79495496/198527543-a07511cf-dbc4-433d-a9da-d37758e1061e.png)
+![image](https://user-images.githubusercontent.com/80797703/199882565-6aa31830-00aa-467c-996e-09aec046abfb.png)
 
+### Tuần 10 : Kiểm tra giữa kỳ
 
+### Tuần 11
+- Cập nhật thêm các màn giao diện đã hoàn thành
+
+| <img src="https://user-images.githubusercontent.com/80797703/201277688-17cb6bcb-8a93-410e-a866-33a4219f8270.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/80797703/201277891-1045bffd-6c66-44df-a3c4-3c37f4cbccdb.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/80797703/201278883-6c2f8e28-3a0b-4ba7-90de-07b7f6e5ae97.png" alt="" width="250"/> |
+|---|---|---|
 
 
 
