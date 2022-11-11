@@ -104,7 +104,7 @@ class _ActivityStateState extends State<ActivityState> {
             ),
             const Expanded(
               child: TabBarView(
-                children: [Activity(), Activity_second(), Activity_third()],
+                children: [Activity(), Activity_Second(), Activity_third()],
               ),
             )
           ],

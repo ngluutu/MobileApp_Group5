@@ -3,15 +3,15 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 // ignore: camel_case_types
-class Activity_second extends StatefulWidget {
-  const Activity_second({super.key});
+class Activity_Second extends StatefulWidget {
+  const Activity_Second({super.key});
 
   @override
-  State<Activity_second> createState() => _Activity_secondState();
+  State<Activity_Second> createState() => _Activity_SecondState();
 }
 
 // ignore: camel_case_types
-class _Activity_secondState extends State<Activity_second> {
+class _Activity_SecondState extends State<Activity_Second> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

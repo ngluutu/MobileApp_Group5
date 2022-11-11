@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_application_1/LocaleString.dart';
 import 'package:flutter_application_1/globals.dart' as globals;
+import 'package:flutter_application_1/localestring.dart';
 import 'package:flutter_application_1/mainscreen.dart';
 import 'package:get/get.dart';
 

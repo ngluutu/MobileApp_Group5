@@ -24,14 +24,14 @@ void main() {
 
   testWidgets('find a text in Activity_third Widget',
       (WidgetTester tester) async {
-    await tester.pumpWidget(const MaterialApp(home: Activity_third()));
+    await tester.pumpWidget(const MaterialApp(home: Activity_Third()));
 
     expect(find.text("You haven't created any game yet!"), findsOneWidget);
   });
 
   testWidgets('find a text in Activity_second Widget',
       (WidgetTester tester) async {
-    await tester.pumpWidget(const MaterialApp(home: Activity_second()));
+    await tester.pumpWidget(const MaterialApp(home: Activity_Second()));
 
     expect(find.text("You haven't played any game yet!"), findsOneWidget);
   });
