@@ -294,7 +294,7 @@ class _CountDownWidgetState extends State<CountDownWidget> {
   }
 
   Future<String> getName(String link) async {
-    final String respone = await rootBundle.loadString(link);
+    final String respone = await rootBundle.loadString(link, cache: false);
     final data = await json.decode(respone);
     // ignore: avoid_dynamic_calls
     final String name = data['title'].toString();
@@ -303,7 +303,7 @@ class _CountDownWidgetState extends State<CountDownWidget> {
   }
 
   Future<String> getDescription(String link) async {
-    final String respone = await rootBundle.loadString(link);
+    final String respone = await rootBundle.loadString(link, cache: false);
     final data = await json.decode(respone);
     // ignore: avoid_dynamic_calls
     final String des = data['Description'].toString();
@@ -312,7 +312,7 @@ class _CountDownWidgetState extends State<CountDownWidget> {
   }
 
   Future<String> getNumberOfQuestions(String link) async {
-    final String respone = await rootBundle.loadString(link);
+    final String respone = await rootBundle.loadString(link, cache: false);
     final data = await json.decode(respone);
     // ignore: avoid_dynamic_calls
     final String num = data['number_of_questions'].toString();
@@ -321,7 +321,7 @@ class _CountDownWidgetState extends State<CountDownWidget> {
   }
 
   Future<String> getImage(String link) async {
-    final String respone = await rootBundle.loadString(link);
+    final String respone = await rootBundle.loadString(link, cache: false);
     final data = await json.decode(respone);
     // ignore: avoid_dynamic_calls
     final String image = data['image_url'].toString();

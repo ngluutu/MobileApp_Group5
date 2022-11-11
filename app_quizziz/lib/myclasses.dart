@@ -34,36 +34,6 @@ class _MyClassesState extends State<MyClasses> {
     );
   }
 
-  Widget top() {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
-        Row(
-          children: [
-            const Padding(padding: EdgeInsets.symmetric(horizontal: 10)),
-            Text(
-              'My Classes'.tr,
-              style: GoogleFonts.comfortaa(
-                textStyle: const TextStyle(
-                  color: Colors.black,
-                  //fontFamily: "Comfortaa",
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
-          ],
-        ),
-        const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
-        const Divider(
-          color: Color.fromRGBO(196, 196, 196, 1),
-          height: 0,
-        )
-      ],
-    );
-  }
-
   TextButton _joinAClass() {
     return TextButton(
       child: Container(

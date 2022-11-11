@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class HomePageDefault extends StatefulWidget {
+  const HomePageDefault({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<HomePageDefault> createState() => _HomePageDefault();
 }
 
 class AppBarHome extends StatelessWidget {
@@ -38,7 +38,7 @@ class AppBarHome extends StatelessWidget {
   }
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageDefault extends State<HomePageDefault> {
   final _controller = TextEditingController();
   @override
   Widget build(BuildContext context) {

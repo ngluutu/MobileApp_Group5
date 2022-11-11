@@ -22,24 +22,24 @@ class _SettingState extends State<Setting> {
 
   @override
   void initState() {
-    Future.delayed(Duration.zero, () async {
-      final ByteData bytes =
-          await rootBundle.load(audioasset); //load audio from assets
-      audiobytes =
-          bytes.buffer.asUint8List(bytes.offsetInBytes, bytes.lengthInBytes);
-      //convert ByteData to Uint8List
+    // Future.delayed(Duration.zero, () async {
+    //   final ByteData bytes =
+    //       await rootBundle.load(audioasset); //load audio from assets
+    //   audiobytes =
+    //       bytes.buffer.asUint8List(bytes.offsetInBytes, bytes.lengthInBytes);
+    //   //convert ByteData to Uint8List
 
-      player.onDurationChanged.listen((Duration d) {
-        //get the duration of audio
-        setState(() {});
-      });
+    //   player.onDurationChanged.listen((Duration d) {
+    //     //get the duration of audio
+    //     setState(() {});
+    //   });
 
-      player.onAudioPositionChanged.listen((Duration p) {
-        setState(() {
-          //refresh the UI
-        });
-      });
-    });
+    //   player.onAudioPositionChanged.listen((Duration p) {
+    //     setState(() {
+    //       //refresh the UI
+    //     });
+    //   });
+    // });
     super.initState();
   }
 
@@ -441,12 +441,12 @@ class _SettingState extends State<Setting> {
                   ),
                 ),
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                  //mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset(
                       'assets/classic.png',
-                      height: 40,
-                      width: 40,
+                      height: 30,
+                      width: 30,
                     ),
                     Text(
                       'Classic',
@@ -476,12 +476,12 @@ class _SettingState extends State<Setting> {
                   ),
                 ),
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                  //mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset(
                       'assets/frameim.jpg',
-                      height: 40,
-                      width: 40,
+                      height: 30,
+                      width: 30,
                     ),
                     Text(
                       'Frame Im...',
@@ -511,9 +511,9 @@ class _SettingState extends State<Setting> {
                   ),
                 ),
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                  //mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Image.asset('assets/touchdown.png', width: 40, height: 40),
+                    Image.asset('assets/touchdown.png', width: 30, height: 30),
                     Text(
                       'Touchdo...',
                       style: GoogleFonts.comfortaa(
@@ -542,12 +542,12 @@ class _SettingState extends State<Setting> {
                   ),
                 ),
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                  //mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset(
                       'assets/dogsville.jpg',
-                      width: 40,
-                      height: 40,
+                      width: 30,
+                      height: 30,
                     ),
                     Text(
                       'Dogsville',
@@ -577,9 +577,9 @@ class _SettingState extends State<Setting> {
                   ),
                 ),
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                  //mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Image.asset('assets/darknight.jpg', width: 40, height: 40),
+                    Image.asset('assets/darknight.jpg', width: 30, height: 30),
                     Text(
                       'Dark Nig...',
                       style: GoogleFonts.comfortaa(

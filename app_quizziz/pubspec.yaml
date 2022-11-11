@@ -51,6 +51,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   lint: ^1.5.3
+  test: 
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -70,6 +71,12 @@ flutter_icons:
 # The following section is specific to Flutter packages.
 flutter:
   assets:
+    - assets/
+    - assets/db/
+    - assets/icon/
+    - assets/quiz/
+    - assets/icon/quizziz.png
+    - assets/quizizz-dev-1024x1024-app icon.png
     - assets/quizizz_logo.jpg
     - assets/boy.png
     - assets/classic.png
@@ -91,7 +98,6 @@ flutter:
     - assets/quiz/coar.jpg
     - assets/quiz/math.jpg
     - assets/quiz/uiux.jpg
-    - assets/Kalimba.mp3
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

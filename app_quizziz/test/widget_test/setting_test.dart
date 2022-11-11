@@ -79,12 +79,23 @@ void main() {
     expect(find.text("Let's get you started"), findsOneWidget);
   });
 
-  testWidgets('find a text in MainScreen Widget', (WidgetTester tester) async {
+  testWidgets('find a text in MainScreen to Activity Widget',
+      (WidgetTester tester) async {
     await tester.pumpWidget(const MaterialApp(home: MainScreen()));
     await tester.pumpAndSettle();
     await tester.tap(find.text('Activity'));
     await tester.pumpAndSettle();
     expect(find.text('Activity'), findsOneWidget);
+  });
+
+  testWidgets('find a text in MainScreen to Search Widget',
+      (WidgetTester tester) async {
+    await tester.pumpWidget(const MaterialApp(home: MainScreen()));
+    await tester.pumpAndSettle();
+
+    await tester.tap(find.text('Search'));
+    await tester.pumpAndSettle();
+    expect(find.text('Search'), findsOneWidget);
   });
 
   testWidgets('find a text in Result Widget', (WidgetTester tester) async {

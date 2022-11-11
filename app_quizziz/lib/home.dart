@@ -221,7 +221,6 @@ class AppBarHome extends StatelessWidget {
         Row(
           children: [
             const Padding(padding: EdgeInsets.symmetric(horizontal: 10)),
-            //Image.asset('assets/quizizz_logo.jpg', width: 109, height: 40)
             Text(
               'Quizizz'.tr,
               style: GoogleFonts.comfortaa(

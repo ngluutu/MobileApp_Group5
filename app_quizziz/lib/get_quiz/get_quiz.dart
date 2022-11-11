@@ -1,7 +1,6 @@
 // ignore_for_file: avoid_dynamic_calls, non_constant_identifier_names
 
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_application_1/get_quiz/result.dart';
@@ -17,6 +16,12 @@ class GetQuiz extends StatefulWidget {
 
 // ignore: duplicate_ignore
 class _GetQuizState extends State<GetQuiz> {
+  @override
+  void initState() {
+    WidgetsFlutterBinding.ensureInitialized();
+    super.initState();
+  }
+
   int pageIndex = 0;
   PageController pageController = PageController();
   bool hide_A = true;
@@ -37,8 +42,9 @@ class _GetQuizState extends State<GetQuiz> {
   int page = 0;
 
   Future<void> readJson() async {
-    final String respone = await rootBundle.loadString(isPlayingQuiz);
-    final data = await json.decode(respone);
+    final String respone =
+        await rootBundle.loadString(isPlayingQuiz, cache: false);
+    final data = jsonDecode(respone);
     // ignore: duplicate_ignore
     setState(() {
       _item = data['questions'] as List;
@@ -88,7 +94,8 @@ class _GetQuizState extends State<GetQuiz> {
                             color: Colors.transparent,
                             child: Center(
                               child: Text(
-                                _item[index]['question'] as String,
+                                'Question ' +
+                                    '${index + 1}: ${_item[index]['question'] as String}',
                                 textAlign: TextAlign.center,
                                 style: GoogleFonts.comfortaa(
                                   textStyle: const TextStyle(
@@ -204,6 +211,7 @@ class _GetQuizState extends State<GetQuiz> {
                             maintainState: true,
                             visible: hide_B,
                             child: TextButton(
+                              key: const Key('B'),
                               onPressed: () async {
                                 if (active) {
                                   final int s = getCorrectAnswer(
