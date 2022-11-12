@@ -59,6 +59,7 @@ Thao tác đã làm được
 
 | <img src="https://user-images.githubusercontent.com/80797703/201277688-17cb6bcb-8a93-410e-a866-33a4219f8270.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/80797703/201277891-1045bffd-6c66-44df-a3c4-3c37f4cbccdb.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/80797703/201278883-6c2f8e28-3a0b-4ba7-90de-07b7f6e5ae97.png" alt="" width="250"/> |
 |---|---|---|
+| <img src="https://user-images.githubusercontent.com/80797703/201473663-e0d06f35-c341-4e41-a403-27093fccacd0.gif" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/80797703/201473667-59fc18c6-e9de-4a6b-9c38-a350f6fdbc12.gif" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/80797703/201473674-6e3bf512-d6a2-4210-99cd-55ad30f62700.gif" alt="" width="250"/> |
 
 
 
