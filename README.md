@@ -61,7 +61,11 @@ Thao tác đã làm được
 |---|---|---|
 | <img src="https://user-images.githubusercontent.com/80797703/201473663-e0d06f35-c341-4e41-a403-27093fccacd0.gif" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/80797703/201473667-59fc18c6-e9de-4a6b-9c38-a350f6fdbc12.gif" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/80797703/201473674-6e3bf512-d6a2-4210-99cd-55ad30f62700.gif" alt="" width="250"/> |
 
+### Tuần 12 : Nghỉ 20/11
 
+### Tuần 13 : Báo cáo tiến độ xây dựng ứng dụng Quizizz
+
+Đường link báo cáo: https://www.canva.com/design/DAFSwMQ8ZVY/W5eOZz0CJnF78_0cr0yByA/view#1
 
 
 
